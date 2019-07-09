@@ -5,5 +5,5 @@
 	<source media="$Query" srcset="$Image.MicroImage.URL" data-srcset="$Image.URL">
 	<% end_loop %>
 	<!--[if IE 9]></video><![endif]-->
-	<img src="$DefaultImage.MicroImage.URL" data-src="$DefaultImage.URL" class="img-fluid" alt="$Title">
+	<img src="$DefaultImage.MicroImage.URL" data-src="$DefaultImage.URL" class="img-fluid w-100" alt="$Title">
 </picture>
